@@ -1,0 +1,21 @@
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"
+    "http://getahead.org/dwr/dwr30.dtd">
+
+<!--<dwr>
+  <init>
+    <creator id="jsf" class="org.directwebremoting.faces.JsfCreator"/>
+  </init>
+  <allow>
+    <create creator="jsf" javascript="ManagePerson">
+      <param name="managedBeanName" value="ManagePersonBean" />
+      <param name="class" value="basic.ManagePersonBean"/>
+      <include method="createPerson" />
+      <include method="listPerson" />
+      <include method="initConnection" />
+      <include method="updatePerson" />
+      <include method="deletePerson" />
+    </create>
+    <convert converter="bean" match="basic.Person"/>
+  </allow>
+</dwr>-->

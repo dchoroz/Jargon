@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Account Manager</title>
+        <meta charset="utf-8">
+
+        <script type="text/javascript" src="atmosphere/jquery-1.9.0.js"></script>
+        <!--<script type="text/javascript" src="atmosphere/portal.js"></script>-->
+        <script type="text/javascript" src="atmosphere/jquery.atmosphere.js"></script>   
+
+        <link rel="stylesheet" type="text/css" href="extjs/resources/css/ext-all.css">
+        <script type="text/javascript" src="extjs/ext-debug-w-comments.js"></script>
+        <!--<script type="text/javascript" src="webresources/Entities"></script>-->
+
+        <script type="text/javascript" src="app.js" defer></script>
+
+        <!--	<script type='text/javascript' src='/TestApp/dwr/engine.js'></script>
+                <script type='text/javascript' src='/TestApp/dwr/interface/ManagePerson.js'></script>
+                <script type='text/javascript' src='/TestApp/dwr/util.js'></script>-->
+
+
+
+        <!--    <script type="text/javascript">
+            
+            </script>-->
+        <!--   <script type="text/javascript">
+            $(document).ready( function () { var socket = $.atmosphere;
+              alert(socket);
+              var request = new $.atmosphere.AtmosphereRequest();  
+              alert(socket);});
+           </script>-->
+        <!--   <script type="text/javascript">
+           var socket = $.atmosphere;
+              var request = { url: document.location.toString()+"webresources/Connect",
+                              contentType : "application/json",
+                              logLevel : 'debug',
+                              transport : 'websocket' ,
+                              fallbackTransport: 'long-polling'};
+                  
+              request.onOpen = function(response) {
+                  alert('Atmosphere connected using ' + response.transport+ '\n body'+ response.responseBody);
+              };
+          
+              request.onMessage = function (response) {
+                  var message = response.responseBody;
+                  try {
+                      alert(message);
+                      var json = JSON.parse(message);
+                  } catch (e) {
+                      console.log('This does not look like a valid JSON: ', message.data);
+                      return;
+                  }
+              };
+         
+              request.onError = function(response) {
+                  alert('Sorry, but there is some problem with your '
+                      + 'socket or the server is down' );
+              };
+              
+              var asubSocket = socket.subscribe(request);  
+              alert("to stelnw");
+              asubSocket.push(jQuery.stringifyJSON({ "fname": "takis", "lname": "msg" }));
+              alert("to steila");
+           </script>-->
+
+    </head>
+    <body></body>
+</html>
