@@ -1,4 +1,6 @@
-# Jargon
+![](other/images/jargon_logo.png)
+
+
 ###Middleware for data management in REST style web applications with rich client.
 
 Jargon framework is a Middleware aimed for Web Applications designed and implemented with Java Enterprise Edition 6 and ExtJS 4. It is a tool for building applications and offers mapping tools, transparent communication and transactional features. Jargon framework is in accordance with the JPA specification and is independent of the persistence implementation.
